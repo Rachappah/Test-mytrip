@@ -45,6 +45,7 @@ if __name__ == '__main__':
     driver.execute_script("window.scrollTo(5, document.body.scrollHeight);")
     time.sleep(3)
     driver.find_element_by_xpath(".//*[@id='leftblock']/div[4]/table/tbody/tr[8]/td[6]/a").click()
+    time.sleep(3)
 
     
     
